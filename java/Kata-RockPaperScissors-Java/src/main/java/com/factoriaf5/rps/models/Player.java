@@ -2,7 +2,18 @@ package com.factoriaf5.rps.models;
 
 public class Player {
 
+    private Figure figure;
+
     public Player() {
+        
+    }
+
+    public Figure getFigure() {
+        return figure;
+    }
+
+    public void setFigure(Figure figure) {
+        this.figure = figure;
     }
 
     public Figure choose(String string) {

@@ -6,11 +6,11 @@ import org.junit.Test;
 
 public class PlayerTest {
     private Player player1;
-    // private Player player2;
+    private Player player2;
 
     public PlayerTest(){
         this.player1 = new Player();
-        // this.player2 = new Player();
+        this.player2 = new Player();
     }
 
     @Test
@@ -22,7 +22,7 @@ public class PlayerTest {
 
     @Test
     public void test_player_can_choose_Paper(){
-        Figure paper = player1.choose("Paper");
+        Figure paper = player2.choose("Paper");
 
         assertTrue(paper instanceof Paper);
     }
