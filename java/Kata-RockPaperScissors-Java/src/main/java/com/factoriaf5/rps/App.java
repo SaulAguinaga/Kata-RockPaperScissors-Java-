@@ -1,5 +1,7 @@
 package com.factoriaf5.rps;
 
+import java.util.Scanner;
+
 import com.factoriaf5.rps.application.Game;
 import com.factoriaf5.rps.models.Player;
 
@@ -14,7 +16,7 @@ public class App
         Player player1 = new Player();
         Player player2 = new Player();
         
-        player1.setFigure(player2.choose("Spock"));
+        player1.setFigure(player1.choose("Spock"));
         player2.setFigure(player2.choose("Lizard"));
 
     result = game.checkResult(player1.getFigure(), player2.getFigure());
