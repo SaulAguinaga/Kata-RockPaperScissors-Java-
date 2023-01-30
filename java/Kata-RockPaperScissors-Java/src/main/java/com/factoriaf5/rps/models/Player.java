@@ -4,10 +4,6 @@ public class Player {
 
     private Figure figure;
 
-    public Player() {
-        
-    }
-
     public Figure getFigure() {
         return figure;
     }
@@ -17,19 +13,19 @@ public class Player {
     }
 
     public Figure choose(String string) {
-        if(string == "Rock"){
+        if(string.equals("rock")){
             return new Rock();
         }
-        if(string == "Paper"){
+        if(string.equals("paper")){
             return new Paper();
         }
-        if(string == "Scissors"){
+        if(string.equals("scissors")){
             return new Scissors();
         }
-        if(string == "Lizard"){
+        if(string.equals("lizard")){
             return new Lizard();
         }
-        if(string == "Spock"){
+        if(string.equals("spock")){
             return new Spock();
         }
         
