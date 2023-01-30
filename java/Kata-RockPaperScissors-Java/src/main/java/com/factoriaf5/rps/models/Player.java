@@ -26,6 +26,12 @@ public class Player {
         if(string == "Scissors"){
             return new Scissors();
         }
+        if(string == "Lizard"){
+            return new Lizard();
+        }
+        if(string == "Spock"){
+            return new Spock();
+        }
         
         return null;
     }

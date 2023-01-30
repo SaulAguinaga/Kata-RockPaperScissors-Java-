@@ -2,6 +2,7 @@ package com.factoriaf5.rps.models;
 
 import static org.junit.Assert.assertTrue;
 
+
 import org.junit.Test;
 
 public class PlayerTest {
@@ -33,4 +34,6 @@ public class PlayerTest {
 
         assertTrue(scissors instanceof Scissors);
     }
+    
+
 }
