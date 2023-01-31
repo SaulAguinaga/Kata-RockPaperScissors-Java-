@@ -1,5 +1,6 @@
 package com.factoriaf5.rps.application;
 
+import com.factoriaf5.rps.models.Daza;
 import com.factoriaf5.rps.models.Figure;
 import com.factoriaf5.rps.models.Lizard;
 import com.factoriaf5.rps.models.Paper;
@@ -25,6 +26,9 @@ public class Game {
         }
         if(player1 instanceof Spock){
             return ((Spock) player1).check(player2);
+        }
+        if(player1 instanceof Daza){
+            return ((Daza) player1).check(player2);
         }
         
         return null;

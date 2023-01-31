@@ -15,16 +15,16 @@ public class App
         String result;
 
         Player player1 = new Player();
-        String election1="Spock";
+        String election1;
         Player player2 = new Player();
-        String election2="Lizard";
+        String election2;
 
         Scanner teclado = new Scanner(System.in);
-        System.out.print("\n\nPlayer 1 choose: Rock, Paper, Scissros, Lizard, Spock: \n\n");
+        System.out.print("\n\nPlayer 1 choose: Rock, Paper, Scissros, Lizard, Spock, Daza: \n\n");
         election1= teclado.nextLine().toLowerCase();
         System.out.println(election1);
        
-        System.out.print("\n\nPlayer 2 choose: Rock, Paper, Scissros, Lizard, Spock: \n\n");
+        System.out.print("\n\nPlayer 2 choose: Rock, Paper, Scissros, Lizard, Spock, Daza: \n\n");
         election2 = teclado.nextLine().toLowerCase();
         teclado.close();
         player1.setFigure(player1.choose(election1));
