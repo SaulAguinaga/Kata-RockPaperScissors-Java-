@@ -20,11 +20,11 @@ public class App
         String election2;
 
         Scanner teclado = new Scanner(System.in);
-        System.out.print("\n\nPlayer 1 choose: Rock, Paper, Scissros, Lizard, Spock, Daza: \n\n");
+        System.out.print("\n\nPlayer 1 choose: Rock, Paper, Scissros: \n\n");
         election1= teclado.nextLine().toLowerCase();
         System.out.println(election1);
        
-        System.out.print("\n\nPlayer 2 choose: Rock, Paper, Scissros, Lizard, Spock, Daza: \n\n");
+        System.out.print("\n\nPlayer 2 choose: Rock, Paper, Scissros: \n\n");
         election2 = teclado.nextLine().toLowerCase();
         teclado.close();
         player1.setFigure(player1.choose(election1));

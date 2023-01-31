@@ -12,15 +12,6 @@ public class Paper extends Figure{
         if (player2 instanceof Paper) {
             return "Draw";
         }
-        if (player2 instanceof Lizard) {
-            return "Player2 WIN";
-        }
-        if (player2 instanceof Spock) {
-            return "Player1 WIN";
-        }
-        if (player2 instanceof Daza){
-            return "Daza ALWAYS WIN";
-        }
         return null;
     }
 }

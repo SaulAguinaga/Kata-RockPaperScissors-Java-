@@ -1,12 +1,12 @@
 package com.factoriaf5.rps.application;
 
-import com.factoriaf5.rps.models.Daza;
+
 import com.factoriaf5.rps.models.Figure;
-import com.factoriaf5.rps.models.Lizard;
+
 import com.factoriaf5.rps.models.Paper;
 import com.factoriaf5.rps.models.Rock;
 import com.factoriaf5.rps.models.Scissors;
-import com.factoriaf5.rps.models.Spock;
+
 
 public class Game {
 
@@ -21,16 +21,6 @@ public class Game {
         if(player1 instanceof Scissors){
             return ((Scissors) player1).check(player2);
         }
-        if(player1 instanceof Lizard){
-            return ((Lizard) player1).check(player2);
-        }
-        if(player1 instanceof Spock){
-            return ((Spock) player1).check(player2);
-        }
-        if(player1 instanceof Daza){
-            return ((Daza) player1).check(player2);
-        }
-        
         return null;
     }
     

@@ -12,12 +12,7 @@ public class Rock extends Figure{
         if (player2 instanceof Rock) {
             return "Draw";
         }
-        if (player2 instanceof Lizard) {
-            return "Player1 WIN";
-        }
-        if (player2 instanceof Spock) {
-            return "Player2 WIN";
-        }
+
         return null;
     }
 }

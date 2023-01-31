@@ -22,16 +22,7 @@ public class Player {
         if(string.equals("scissors")){
             return new Scissors();
         }
-        if(string.equals("lizard")){
-            return new Lizard();
-        }
-        if(string.equals("spock")){
-            return new Spock();
-        }
-        if(string.equals("daza")){
-            return new Daza();
-        }
-        
+
         return null;
     }
     
